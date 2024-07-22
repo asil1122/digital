@@ -1,0 +1,114 @@
+.footer__topp {
+    background-color: #1b1b1b;
+    padding-top: 79px;
+    padding-bottom: 53px;
+}
+.footer__logo {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 155%;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    max-width: 372px;
+    margin-bottom: 25px;
+}
+
+.footer__desc {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer__about {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer__page {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+}
+
+.footer__phnoe {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.footer__info {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 282px;
+}
+.footer__contact {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer__block {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__social_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    margin-top: 196px;
+}
+
+.footer__top_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 191%;
+    color: #fff;
+}
+
+.footer__top {
+    border-top: 0.8px solid #d2d2d2;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    text-align: center;
+    background-color: #1b1b1b;
+}
+
+.footer__block {
+    display: none;
+}
+
+.footer__topp {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .footer__block {
+        display: flex;
+    }
+
+    .footer__topp {
+        display: block;
+    }
+}
