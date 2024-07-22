@@ -1,0 +1,123 @@
+.about_hero {
+    background-color: rgba(226, 122, 12, 0.12);
+    ;
+}
+
+// .about_hero_content{
+// width: 706px;
+// margin-left: auto;
+// padding: 112px 166px 113px 116px;
+// }
+
+// .about_hero_bg_color{
+//     width: 50%;
+// }
+
+.about_hero_img_block1 {
+    text-align: center;
+}
+
+.about_hero_content {
+    padding: 61px 37px 74px 31px;
+}
+
+.about_hero_link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 209%;
+    color: #848484;
+}
+
+.about_hero_us {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 209%;
+    color: #e47500;
+}
+
+.about_hero_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 180%;
+    color: #222;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.about_hero_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 209%;
+    color: #525252;
+    margin-bottom: 37px;
+}
+
+.about_hero_btn {
+    border-radius: 40px;
+    background-color: #FB9427;
+    padding: 11px 57px 11px 19px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+
+    &::after {
+        content: "";
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        background-image: url(../img/about_hero.svg);
+        position: absolute;
+        top: 17px;
+        right: 33px;
+    }
+}
+
+.about_hero_img_block {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .about_hero_img_block1 {
+        display: none;
+    }
+
+    .about_hero_img_block {
+        display: flex;
+        padding-left: 32px;
+    }
+
+    .about_hero_img_block {
+        width: 50%;
+    }
+
+    .about_hero_content {
+        width: 706px;
+        margin-left: auto;
+        padding: 112px 166px 113px 116px;
+    }
+
+    .about_hero_bg_color {
+        width: 50%;
+    }
+
+    .about_hero_big {
+        display: flex;
+    }
+
+    .about_hero_title {
+        font-size: 30px;
+        line-height: 180%;
+    }
+
+    .about_hero_text {
+        font-size: 15px;
+        line-height: 209%;
+    }
+
+}
