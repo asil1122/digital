@@ -40,6 +40,9 @@ img {
 }
 
 body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	font-family: "Poppins", sans-serif;
 	overflow-x: hidden;
 	margin: 0;
