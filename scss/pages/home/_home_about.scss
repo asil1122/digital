@@ -57,11 +57,7 @@
             content: "";
             width: 100px;
             height: 80px;
-            background-image: url("../img/home_about-2.svg");
 
-            position: absolute;
-            transform: translate(-50%, -50%);
-            z-index: -1;
             top: 1%;
             right: -12%;
             background-size: contain;
@@ -120,6 +116,7 @@
     .home__about_img1 {
         &::after {
             content: "";
+
             width: 130px;
             height: 103px;
             top: 1%;
@@ -137,6 +134,11 @@
 
             top: 2%;
             right: -6%;
+            background-image: url("../img/home_about-2.svg");
+
+            position: absolute;
+            transform: translate(-50%, -50%);
+            z-index: -1;
         }
     }
 }
