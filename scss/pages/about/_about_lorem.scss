@@ -1,0 +1,73 @@
+.about_lorem {
+    padding-bottom: 62px;
+}
+
+.about_lorem_img_block {
+    text-align: center;
+}
+
+.about_lorem_des {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 203%;
+    color: #dc7000;
+    margin-bottom: 14px;
+    margin-top: 40px;
+}
+
+.about_lorem_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 158%;
+    color: #000;
+    margin-bottom: 44px;
+}
+
+.about_lorem_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 203%;
+    color: #000;
+}
+
+
+@media screen and (min-width: 992px) {
+    .about_lorem {
+        background-color: #f5f5f5;
+        padding-top: 70px;
+    }
+
+    .about_lorem_block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about_lorem_img_block {
+        width: 50%;
+        position: relative;
+        top: 69px;
+    }
+
+    .about_lorem_title {
+        font-size: 28px;
+        line-height: 158%;
+    }
+
+    .about_lorem_content {
+        width: 50%;
+        max-width: 597px;
+    }
+
+    .about_lorem_text {
+        font-size: 16px;
+        line-height: 203%;
+    }
+}
