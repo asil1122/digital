@@ -65,13 +65,6 @@
     margin-bottom: 20px;
 }
 
-.footer__block {
-    display: flex;
-
-    align-items: center;
-    justify-content: space-between;
-}
-
 .footer__social_list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -106,6 +99,15 @@
 @media screen and (min-width: 992px) {
     .footer__block {
         display: flex;
+        align-items: center;
+
+        justify-content: space-between;
+    }
+
+    .footer__lists {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
     }
 
     .footer__topp {
