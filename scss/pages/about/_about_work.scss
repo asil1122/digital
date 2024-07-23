@@ -1,0 +1,71 @@
+.about_work {
+    padding-top: 62px;
+    padding-bottom: 92px;
+}
+
+.about_work_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #222;
+    margin-bottom: 42px;
+}
+
+.about_work_sub_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 187%;
+    color: #000;
+    margin-top: 16px;
+    margin-bottom: 13px;
+}
+
+.about_work_item {
+    border-radius: 20px;
+    padding: 55px 31px 55px 37px;
+    background-color: #f5f5f5;
+    margin-bottom: 25px;
+
+    &:hover {
+        box-shadow: 0 4px 94px 0 rgba(0, 0, 0, 0.15);
+        background-color: #fff;
+    }
+}
+
+.about_work_link {
+    border-radius: 8px;
+    background-color: #F2E1DA;
+    padding: 6px 4px 6px 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #dc1a00;
+}
+
+.about_work_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 187%;
+    color: #525252;
+}
+
+
+@media screen and (min-width: 992px) {
+    .about_work {
+        padding-top: 144px;
+        padding-bottom: 147px;
+    }
+
+    .about_work_title {
+        font-size: 25px;
+    }
+
+    .about_work_list {
+        display: flex;
+        gap: 43px;
+    }
+}
